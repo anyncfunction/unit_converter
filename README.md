@@ -39,11 +39,20 @@ python main.py
 
 ```
 unit_converter/
+<<<<<<< HEAD
 ├── main.py                 # 程序入口
 ├── gui.py                  # GUI界面
 ├── converter.py            # 换算核心逻辑
 ├── converter_history.json  # 历史记录管理
 └── README.md               # 说明文档
+=======
+├── main.py           # 程序入口
+├── converter_gui.py  # GUI界面
+├── converter.py      # 换算核心逻辑
+├── units.py          # 单位定义数据
+├── history.py        # 历史记录管理
+└── README.md         # 说明文档
+>>>>>>> 004a9208a5964b26d8fec900de1339cba22f2173
 ```
 
 ## 🎯 使用方法
